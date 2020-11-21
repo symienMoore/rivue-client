@@ -1,0 +1,40 @@
+$accent-color: #2569FF;
+
+section {
+    min-height: 350px;
+}
+
+img {
+    object-fit: cover;
+    background-position: center bottom;
+}
+
+.header-title {
+    position: absolute;
+    top: 300px;
+    color: white;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+button{
+    width: 100px;
+}
+
+.btn {
+    background: $accent-color;
+    color: white;
+}
+
+.btn-sign-up {
+    margin-left: 30px;
+    background: white;
+    border: 1px solid $accent-color;
+    color: $accent-color;
+}
+
+.sect-three {
+    background: $accent-color;
+}
